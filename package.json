@@ -1,5 +1,5 @@
 {
-  "name": "cs_ridwan",
+  "name": "ridwanMyCv",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,8 +8,21 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "10.0.8",
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^0.21.1",
+    "next": "10.0.7",
+    "next-compose-plugins": "^2.2.1",
+    "next-images": "^1.7.0",
+    "next-react-svg": "^1.1.2",
+    "nprogress": "^0.2.0",
+    "postcss": "^8.2.7",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-toastify": "^7.0.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "tailwindcss": "^2.0.3",
+    "webpack": "^5.24.3"
   }
 }
